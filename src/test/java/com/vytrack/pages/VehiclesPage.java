@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 public class VehiclesPage extends BasePage{
 
     @FindBy(css = "[title='Create Car']")
-    public WebElement createACarElement;
+    public WebElement  createACarElement;
 
     /**
      * Use this method to click on "Create a Car" button

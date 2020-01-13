@@ -9,6 +9,7 @@ import org.junit.runner.RunWith;
         features = "@target/rerun.txt",
         glue = "com/vytrack/step_definitions",
         plugin = {"html:target/rerun-default-cucumber-reports",
+                "json:target/cucumber1.json"
         }
 )
 public class FailedRunner {

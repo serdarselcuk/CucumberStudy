@@ -160,7 +160,7 @@ public class BrowserUtils {
      * @param pageTitle
      */
     public static void waitForPageTitle(String pageTitle) {
-        WebDriverWait wait = new WebDriverWait(Driver.get(), 10);
+        WebDriverWait wait = new WebDriverWait(Driver.get(), 20);
         wait.until(ExpectedConditions.titleIs(pageTitle));
     }
 
