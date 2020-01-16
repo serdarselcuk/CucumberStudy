@@ -14,6 +14,7 @@ public class Hook {
         System.out.println("##############################");
         System.out.println("Test setup!");
         Driver.get().manage().window().maximize();
+        Driver.get().na
     }
 
     @After
@@ -30,5 +31,6 @@ public class Hook {
         System.out.println("##############################");
         //after every test, we gonna close browser
         Driver.close();
+
     }
 }
